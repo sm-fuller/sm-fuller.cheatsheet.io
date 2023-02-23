@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Box Model Reference</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Box Model Reference</h1>
+      <p>The Box Model refers to a box that wraps around an HTML element that controls the design and layout of the element.</p>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th class="first-col">CSS Property</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="first-col"><span class="css-property">width</span></td>
+            <td>sets the width of an element's box</td>
+            <td><span class="css-property">width: 200px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">min-width</span></td>
+            <td>ensures a minimum width of an element's box</td>
+            <td><span class="css-property">min-width: 200px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">max-width</span></td>
+            <td>ensures the maximum width of an element's box</td>
+            <td><span class="css-property">max-width: 250px;</span></td>
+          </tr>
+          <tr>
+            <td colspan="3" class="divider-row">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">height</span></td>
+            <td>sets the height of an element's box</td>
+            <td><span class="css-property">height: 200px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">min-height</span></td>
+            <td>ensures the minimum height of an element's box</td>
+            <td><span class="css-property">min-height: 200px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">max-height</span></td>
+            <td>ensures the maximum height of an element's box</td>
+            <td><span class="css-property">max-height: 200px;</span></td>
+          </tr>
+          <tr>
+            <td colspan="3" class="divider-row">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">padding</span></td>
+            <td>
+              sets the amount space between the content area and the border, can be set using:
+              <ul>
+                <li>1 value to set all padding</li>
+                <li>2 values; first to set vertical (top + bottom) padding and the second to set horizonal (left + right) padding</li>
+                <li>3 values; first to set top padding, second to set horizontal padding and third to set bottom padding</li>
+                <li>4 values; first to set top padding, second to set right padding, third to set bottom padding and fourth to set left padding</li>
+              </ul>
+            </td>
+            <td>
+              <span class="css-property">padding: 10px;<br />padding: 10px 15px;<br />padding: 5px 15px 10px;<br />padding: 5px 15px 10px 10px;</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">padding-top</span></td>
+            <td>sets the amount space between the top of the content area and the top border</td>
+            <td><span class="css-property">padding-top: 5px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">padding-right</span></td>
+            <td>sets the amount space between the right of the content area and the right border</td>
+            <td><span class="css-property">padding-right: 15px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">padding-bottom</span></td>
+            <td>sets the amount space between the bottom of the content area and the bottom border</td>
+            <td><span class="css-property">padding-bottom: 10px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">padding-left</span></td>
+            <td>sets the amount space between the left of the content area and the left border</td>
+            <td><span class="css-property">padding-left: 10px;</span></td>
+          </tr>
+          <tr>
+            <td colspan="3" class="divider-row">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">border</span></td>
+            <td>adds a border surrounding the content area and padding of an element by specifying the thickness, style and colour</td>
+            <td><span class="css-property">border: 1px solid black;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">border-top</span></td>
+            <td>adds a top border surrounding the top of the content area and top padding of an element by specifying the thickness, style and colour</td>
+            <td><span class="css-property">border-top: 1px dashed grey;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">border-right</span></td>
+            <td>adds a right border surrounding the right of the content area and right padding of an element by specifying the thickness, style and colour</td>
+            <td><span class="css-property">border-right: 2px dotted blue;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">border-bottom</span></td>
+            <td>adds a bottom border surrounding the bottom of the content area and bottom padding of an element by specifying the thickness, style and colour</td>
+            <td><span class="css-property">border-bottom: 3px solid red;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">border-left</span></td>
+            <td>adds a left border surrounding the left of the content area and left padding of an element by specifying the thickness, style and colour</td>
+            <td><span class="css-property">border-left: 4px dotted green;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">border-radius</span></td>
+            <td>used to modify the corners of an element's border box, makes it curved as apposed to straight</td>
+            <td class="first-col"><span class="css-property">border-radius: 5%;</span></td>
+          </tr>
+          <tr>
+            <td colspan="3" class="divider-row">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">margin</span></td>
+            <td>sets the amount of space between the border and the outside edge of an element, can be set using:
+              <ul>
+                <li>1 value to set all margin</li>
+                <li>2 values; first to set vertical (top + bottom) margins and the second to set horizonal (left + right) margins</li>
+                <li>3 values; first to set top margin, second to set horizontal margins and third to set bottom margin</li>
+                <li>4 values; first to set top margin, second to set right margin, third to set bottom margin and fourth to set left margin</li>
+                <li>auto to horizonally center an element within its container</li>
+              </ul>
+            </td>
+            <td>
+              <span class="css-property">margin: 10px;<br />margin: 10px 15px;<br />margin: 5px 15px 10px;<br />margin: 5px 15px 10px 10px;<br />margin: 0 auto;</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">margin-top</span></td>
+            <td>sets the amount of space between the top border and the top outside edge of an element</td>
+            <td><span class="css-property">margin-top: 5px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">margin-right</span></td>
+            <td>sets the amount of space between the right border and the right outside edge of an element</td>
+            <td><span class="css-property">margin-right: 15px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">margin-bottom</span></td>
+            <td>sets the amount of space between the bottom border and the bottom outside edge of an element</td>
+            <td><span class="css-property">margin-bottom: 10px;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">margin-left</span></td>
+            <td>sets the amount of space between the left border and the left outside edge of an element</td>
+            <td><span class="css-property">margin-left: 10px;</span></td>
+          </tr>
+          <tr>
+            <td colspan="3" class="divider-row">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">overflow</span></td>
+            <td>controls what happens to content that overflows outside its box, can be set using:
+              <ul>
+                <li>visible - overflowing content will show outside of element's box</li>
+                <li>hidden - overflowing content will be hidden</li>
+                <li>scroll - adds scroll bars to access overflowing content</li>
+              </ul>
+            </td>
+            <td>
+              <span class="css-property">overflow: visible;<br />overflow: hidden;<br />overflow: scroll;</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">visibility</span></td>
+            <td>can be used to set the visibility of an element, without removing the element from the page</td>
+            <td><span class="css-property">visibility: hidden;</span></td>
+          </tr>
+          <tr>
+            <td class="first-col"><span class="css-property">box-sizing</span></td>
+            <td>controls which aspect of the box is determined by the height and width properties, can be set using:
+              <ul>
+                <li>content-box - default value, actual size includes the content box</li>
+                <li>border-box - actual size includes the content box, paddings and borders</li>
+              </ul>
+            </td>
+            <td>
+              <span class="css-property">box-sizing: content-box;<br />box-sizing: border-box;</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p>By: Shanna in February 2023</p>
+    </footer>
+  </body>
+</html>
